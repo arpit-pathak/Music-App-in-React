@@ -1,3 +1,4 @@
+import { useDispatch, useSelector } from "react-redux";
 import { Error, Loader, SongCard } from "../Components";
 import { genres } from "../assets/constants";
 
@@ -24,6 +25,7 @@ const Discover = () => {
           <SongCard />
         ))}
       </div>
+      {/* <Loader title={"song is loading"} /> */}
     </div>
   );
 };
