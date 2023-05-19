@@ -1,7 +1,7 @@
 import React from "react";
 import { useSelector } from "react-redux";
 
-import { Error, Loader, SongCard } from "../components";
+import { Error, Loader, SongCard } from "../Components";
 import { useGetTopChartsQuery } from "../redux/services/shazamCore";
 
 const TopCharts = () => {
